@@ -1,7 +1,7 @@
-#Amazon Price Tracker
+# Amazon Price Tracker
 The Amazon Price Tracker is a Python script that lets you monitor the price of a specific product on Amazon. It uses web scraping to fetch the price and sends email notifications when it drops below a set threshold.
 
-##Features
+## Features
 Scrape the Amazon product page for price.
 Receive email alerts for price drops.
 Easily customizable for different products.
@@ -14,7 +14,7 @@ Access to an SMTP server (for email notifications)
 Installation
 Clone this repository.
 
-##Navigate to the project folder:
+## Navigate to the project folder:
 
 sh
 Copy code
@@ -39,5 +39,5 @@ recipient_email: Receiver's email (for notifications).
 smtp_server: Your SMTP server address.
 smtp_username: SMTP server username (often same as sender email).
 smtp_password: SMTP server password or app-specific password.
-##Contributing
+## Contributing
 Contributions are welcome! Please open issues or pull requests for improvements or bug fixes.
